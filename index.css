@@ -1,0 +1,161 @@
+/* Universal Rules*/
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: rgba(255, 245, 238, 0.9);
+    background-color: black;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+body > * {
+    font-family: Helvetica;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Header */
+
+.header {
+    height: 69px;
+    background-color: black;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* Nav */
+.nav a {
+    color: seashell;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+a:visited {
+    color: seashell;
+}
+
+a:active {
+    color: mediumvioletred;
+}
+
+/* Main */
+
+/* Section - Our Mission */
+#mission {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url("./Images/img-mission-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+}
+
+.mission-banner {
+    width: 100%;
+    background-color: black;
+    height: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+/* Section - Tea of the Month */
+
+#monthly-tea-header {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.tea-display {
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tea-display img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea-box {
+    margin-right: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+    
+
+/* Section - Locations */
+
+#locations {
+    background-image: url("./Images/img-locations-background.jpg");
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#locations h2 {
+    position: relative;
+    bottom: 120px;
+    z-index: 1;
+}
+
+.addresses {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+}
+
+.address-box {
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    line-height: 2;
+    margin: 0 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/* Footer */
+.footer {
+    line-height: 2;
+    margin-top: 40px;
+}
+
+#copywright {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
