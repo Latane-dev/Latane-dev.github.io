@@ -289,6 +289,10 @@ giot
         border-radius: 0;
     }
 
+    .project-header {
+        margin-top: 100px;
+    }
+
     .projectwrapper {
         flex-direction: column;
         margin: 0px;
