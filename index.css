@@ -278,14 +278,14 @@ footer {
         text-shadow: none;
         width: 95%;
     }
-giot
+
     .background-bio {
         display: none;
     }
 
     .background-highlight {
         width: 100% !important;
-        height: 128% !important;
+        height: 135% !important;
         border-radius: 0;
     }
 
