@@ -193,14 +193,18 @@ footer {
     }
     
     body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
     }
 
     header {
         height: 60px;
         max-width: 600px !important;
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+        justify-self: center !important;
     }
 
     .header-banner {
@@ -222,6 +226,7 @@ footer {
 
     main {
         max-width: 600px !important;
+        justify-content: center !important;
     }
 
     .mission-container {
