@@ -73,6 +73,7 @@ nav a:not(:last-child) {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #000;
 }
 
@@ -206,5 +207,13 @@ footer {
 
     nav {
         display: none;
+    }
+
+    main {
+        max-width: 600px;
+    }
+
+    #mission {
+        max-width: 600px;
     }
   }
