@@ -205,6 +205,7 @@ footer {
 
     .header-banner {
         justify-content: center;
+        max-width: 600px !important;
     }
 
     .header-banner h1 {
@@ -220,7 +221,12 @@ footer {
     }
 
     main {
-        max-width: 600px;
+        max-width: 600px !important;
+    }
+
+    .mission-container {
+        max-width: 600px !important;
+        max-height: 450px !important;
     }
 
     #mission {
