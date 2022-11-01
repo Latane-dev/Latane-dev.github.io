@@ -227,7 +227,7 @@ footer {
     }
 
     .mission-banner {
-        bottom: 5% !important;
+        top: 90% !important;
     }
     .mission-banner h2 {
         display: none !important;
@@ -251,5 +251,17 @@ footer {
     .projectwrapper {
         flex-direction: column !important;
         align-items: center !important;
+    }
+
+    footer {
+        max-width: 600px !important;
+    }
+
+    .contact img {
+        display: none !important;
+    }
+
+    .phone {
+        display: none !important;
     }
   }
