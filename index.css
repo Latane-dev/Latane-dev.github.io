@@ -204,7 +204,7 @@ footer {
         display: none;
     }
 
-    nav a {
-        font-size: 4vw;
+    nav {
+        display: none;
     }
   }
