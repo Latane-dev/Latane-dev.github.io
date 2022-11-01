@@ -172,6 +172,7 @@ footer {
     justify-content: center;
     align-items: center;
     border-top: 1px solid black;
+    overflow: hidden;
 
 }
 
@@ -269,8 +270,18 @@ footer {
         align-items: center !important;
     }
 
+    .project-box {
+        margin-right: none;
+        margin-left: none;
+    }
+
     footer {
         max-width: 600px !important;
+        border: none !important;
+    }
+
+    .contact {
+        margin: 0;
     }
 
     .contact img {
