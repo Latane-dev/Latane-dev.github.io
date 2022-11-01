@@ -41,12 +41,12 @@ header {
 }
 
 .header-banner h1 {
-    margin-left: 20px;
     color: #fff;
     font-size: 32px;
     font-weight: 200;
     width: 25%;
     text-align: center;
+    margin-top: 20px;
 }
 
 nav {
@@ -239,22 +239,29 @@ footer {
 
   @media only screen and (max-width: 950px) {
 
+    .header-banner {
+        justify-content: center !important;
+    }
+
     .header-banner h1 {
-        font-size: 24px;
+        font-size: 24px !important;
         width: 100%;
-        justify-self: center;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     
     h3 {
-        font-size: 16px;
+        font-size: 16px !important;
     }
-    
+
     #mission {
         margin-top: 35%;
+    }
+
+    #logo {
+        display: none;
     }
 
     nav {
@@ -284,13 +291,12 @@ footer {
     .projectwrapper {
         flex-direction: column;
         margin: 0px;
+        align-items: center !important;
     }
 
     .project-box {
         width: 80%;
         height: 400px;
-        align-items: center !important;
-        clear: left;
     }
 
     footer {
@@ -299,5 +305,11 @@ footer {
 
     .phone {
         display: none !important;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    #mission {
+        margin-top: 75%;
     }
   }
