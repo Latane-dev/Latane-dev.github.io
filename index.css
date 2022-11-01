@@ -193,13 +193,18 @@ footer {
 
     header {
         height: 60px;
+        max-width: 600px;
     }
 
     .header-banner h1 {
-        font-size: 24px;
+        font-size: 8vw;
     }
 
     .logowrap {
         display: none;
+    }
+
+    nav a {
+        font-size: 4vw;
     }
   }
