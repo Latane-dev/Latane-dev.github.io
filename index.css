@@ -276,16 +276,17 @@ footer {
     .biowrapper p {
         font-size: 14px;
         text-shadow: none;
-        width: 100%;
+        width: 95%;
     }
-
+giot
     .background-bio {
         display: none;
     }
 
     .background-highlight {
         width: 100% !important;
-        height: 100% !important;
+        height: 128% !important;
+        border-radius: 0;
     }
 
     .projectwrapper {
